@@ -1,0 +1,40 @@
+nav { border-bottom: 1px solid #ececec; padding: 5px 7px 20px 5px; }
+nav .logo { width: 140px; display: inline-block; }
+nav .contact-info { padding-top: 6px; }
+nav .hotline { color: #cccccc; text-transform: capitalize; font-size: 12px; font-weight: 400; padding-right: 10px; }
+nav .phone-number-block { display: inline-block; }
+nav .phone-number-block .phone-icon { color: #cccccc; font-size: 12px; padding: 3px; }
+nav .phone-number-block .phone-number { text-decoration: underline; color: #000; }
+
+.wrapper .title-block { text-align: center; }
+.wrapper .title-block .main-title { color: #2f2f2f; }
+.wrapper .title-block .seondary-title { color: #cccccc; font-size: 16px; }
+.wrapper .item-details { border: 1px solid #cccccc; margin-top: 60px; padding: 15px 15px 0; }
+.wrapper .item-info .order-id { margin: 0; }
+.wrapper .item-info span { display: inline-block; }
+.wrapper .item-info .title { color: #cccccc; text-transform: uppercase; font-size: 10px; width: 110px; }
+.wrapper .item-info .value { color: #2f2f2f; font-size: 12px; font-weight: 500; }
+.wrapper .download-expose-btn { width: 100%; text-transform: uppercase; background: #ffd400; color: #fff; border: none; padding: 12px; font-size: 16px; font-weight: 500; border-bottom: 2px solid #f7bc50; border-radius: 3px; }
+.wrapper .general { margin-top: 20px; }
+.wrapper .full-description { margin-top: 60px; border-top: 1px solid #cccccc; }
+.wrapper .item-description-list .item-detailed { border-bottom: 1px solid #cccccc; padding: 0px 15px 0px 30px; }
+.wrapper .item-description-list .checkbox { margin-top: 10px; margin-left: 0; }
+.wrapper .item-description-list .icon-type { display: inline-block; width: 30px; margin-left: 20px; }
+.wrapper .item-description-list .item-title { display: inline-block; margin-left: 10px; margin-right: 50px; font-size: 14px; }
+.wrapper .item-description-list .secondary-add { font-size: 11px; color: #cccccc; }
+.wrapper .item-description-list .access-icons { float: right; padding-right: 15px; }
+.wrapper .item-description-list .access-icons span { color: #a2a2a2; font-size: 14px; padding-top: 6px; }
+.wrapper .item-description-list .access-icons span:first-of-type { margin-right: 15px; }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) { .download-expose { clear: both; margin-top: 20px; } }
+@media (max-width: 767px) { .hotline, .phone-number { display: none; }
+  .wrapper .item-details { border: none; margin-top: 30px; padding: 15px; }
+  .wrapper .item-info { margin-top: 15px; }
+  .wrapper .item-info .value { display: block; margin-bottom: 15px; }
+  .wrapper .item-description-list .icon-type { display: none; }
+  .wrapper .item-description-list .item-detailed { position: relative; }
+  .wrapper .item-description-list .item-title { margin-left: 20px; margin-right: 0; margin-bottom: 2px; }
+  .wrapper .item-description-list .secondary-add { display: block; width: 229px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-indent: 22px; }
+  .wrapper .item-description-list .access-icons { position: relative; top: -33px; } }
+
+/*# sourceMappingURL=main.css.map */
